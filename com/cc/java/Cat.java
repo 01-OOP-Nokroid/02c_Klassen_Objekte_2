@@ -44,7 +44,8 @@ public class Cat
 
   private String checkCompliance()
   {
-    counter++;
+    counter++; // Zählt automatisch hoch bei der selben anfrage
+
     switch (counter)
     {
       case 1: 
